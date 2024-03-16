@@ -1,0 +1,71 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: coral;
+}
+#overlay
+{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+form
+{
+    max-width: 500px;
+    width: 90%;
+    background-color: white;
+    margin: 20vh auto 0 auto;
+    padding: 40px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+label
+{
+    display: block;
+    margin: 10px 0;
+}
+input
+{
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+    box-sizing: border-box;
+    resize: none;
+}
+input[type="text"]:focus
+{
+    border-bottom: 2px solid red;
+}
+h1{
+    text-align: center;
+    color: brown;
+}
+input[type="submit"]
+{
+    margin-top: 20px;
+    width: 90%;
+    max-width: 200px;
+    background-color: green;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+}
+#center
+{
+    text-align: center;
+}
+.error
+{
+    color: red;
+}
+#success
+{
+    color: green;
+    text-align: center;
+}

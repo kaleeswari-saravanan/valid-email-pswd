@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="overlay">
+        <form onsubmit="validateForm(); event.preventDefault();">
+            <h1>Registration Form</h1>
+            <label for="name" >Username</label>
+            <input type="text" id="name">
+            <small class="error"></small>
+
+            <label for="email" >Email</label>
+            <input type="text" id="email">
+            <small class="error"></small>
+
+            <label for="pswd" >Password</label>
+            <input type="password" id="pswd">
+            <small class="error"></small>
+
+            <label for="cpswd" >Confirm Password</label>
+            <input type="password" id="cpswd">
+            <small class="error"></small>
+
+            <div id="center">
+                <input type="submit" value="Register">
+            </div>
+            <br>
+            <p id="success"></p>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
